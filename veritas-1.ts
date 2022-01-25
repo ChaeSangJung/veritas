@@ -1,4 +1,4 @@
-// 액션 캑체들의 타입
+// 액션 캑체들의 타입 x
 type CounterAction = ReturnType<typeof increase> | ReturnType<typeof decrease> | ReturnType<typeof increaseBy>
 
 // state 타입
